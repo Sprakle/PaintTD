@@ -30,7 +30,7 @@ public class EntityHealth : MonoBehaviour
 
 	void KillEntity()
 	{
-
+		Destroy(gameObject);
 	}
 
 }
